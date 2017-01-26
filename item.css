@@ -1,0 +1,73 @@
+html {
+    font-family: 'Oswald', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    }
+ul.item li ul {
+    display: none;
+}
+ul.item li {
+    list-style: none;
+    cursor: pointer
+}
+ul.item li:hover > ul {
+    display: block;
+}
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+ul:after {
+    display: block;
+    content: ' ';
+}
+ul > li {
+    float: left;
+    position: relative;
+    width: 19vw;
+    border: 1px solid grey;
+}
+ul > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+}
+ul > li > a:hover {
+    background-color: lightgray;
+}
+ul.item11 {
+    display: none;
+    position: absolute;
+    width: 19vw;
+    background-color: white;
+    right: 19vw;
+    top: -9.5%;
+}
+ul.item10 {
+    display: none;
+    position: absolute;
+    width: 19vw;
+    background-color: white;
+    right: -19vw;
+    top: -9.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
